@@ -13,6 +13,7 @@ import { PensamentoComponent } from './componentes/pensamentos/pensamento/pensam
 import { ExcluirPensamentoComponent } from './componentes/pensamentos/excluir-pensamento/excluir-pensamento.component';
 import { EditarPensamentoComponent } from './componentes/pensamentos/editar-pensamento/editar-pensamento.component';
 import { BotaoCarregarMaisComponent } from './componentes/pensamentos/listar-pensamento/botao-carregar-mais/botao-carregar-mais.component';
+import {MatIconModule} from '@angular/material/icon';
 
 
 @NgModule({
@@ -32,7 +33,8 @@ import { BotaoCarregarMaisComponent } from './componentes/pensamentos/listar-pen
     AppRoutingModule,
     FormsModule,
     HttpClientModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
